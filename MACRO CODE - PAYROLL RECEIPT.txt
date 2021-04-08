@@ -1,0 +1,18 @@
+Sub guardar_pdf()
+'
+' guardar_pdf Macro
+'
+
+'
+Dim ID As String
+
+ID = Range("E13").Text
+
+    ActiveSheet.ExportAsFixedFormat _
+    Type:=x1TypePDF, _
+    Filename:="C:\Users\camilo.diaz.carvajal\Documents\CAMILO\CLASES\PAYROLL RECEIPT\" + ID + ".pdf", _
+    IgnorePrintAreas:=False, _
+    OpenAfterPublish:=False
+    
+    
+End Sub
