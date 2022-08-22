@@ -120,7 +120,7 @@ ventas_por_vendedor = (
 
 
 
-#Crear la gráfica de barras para las horas
+#Crear la gráfica de barras para los vendedores
 fig_ventas_por_vendedor = px.bar(
     ventas_por_vendedor,
     x=ventas_por_vendedor.index,
