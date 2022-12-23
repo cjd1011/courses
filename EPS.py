@@ -94,3 +94,4 @@ st.plotly_chart(bar_chart) #mostrar el grafico de barras en streamlit
 
 
 
+
